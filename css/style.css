@@ -423,6 +423,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     border-left: 4px solid var(--primary-color);
+    max-width: 200px;
 }
 
 .stat-card h3 {
@@ -829,6 +830,7 @@ footer {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 200px;
 }
 
 .award-icon {
@@ -867,6 +869,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     position: relative;
+    max-width: 200px;
 }
 
 .career-card h3 {
@@ -876,13 +879,13 @@ footer {
 
 .openings {
     position: absolute;
-    top: 1rem;
+    top: 0.4rem;
     right: 1rem;
     background: var(--success-color);
     color: #fff;
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem 0.25rem;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     font-weight: 600;
 }
 
